@@ -7,8 +7,17 @@ export default defineNuxtConfig({
     head: {
       title: 'PasteSVG - SVG to Image Converter',
       meta: [
-        { name: 'description', content: 'Convert SVG code to displayable images with real-time preview' }
-      ]
-    }
-  }
-})
+        {
+          name: 'description',
+          content:
+            'Convert SVG code to displayable images with real-time preview',
+        },
+      ],
+    },
+  },
+  preset: 'cloudflare_module',
+  cloudflare: {
+    deployConfig: true,
+    nodeCompat: true,
+  },
+});
