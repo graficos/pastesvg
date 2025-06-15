@@ -15,9 +15,10 @@ export default defineNuxtConfig({
       ],
     },
   },
-  preset: 'cloudflare_module',
-  cloudflare: {
-    deployConfig: true,
-    nodeCompat: true,
+  nitro: {
+    preset: 'cloudflare_module',
+    externals: {
+      inline: ['vue', '@vue/server-renderer', 'devalue', 'unhead'],
+    },
   },
 });
