@@ -1,5 +1,5 @@
 {
   "name": "pastesvg",
   "compatibility_date": "2025-06-15",
-  "assets": { "directory": ".output/public", "binding": "ASSETS" }
+  "assets": { "directory": ".output/public" }
 }
