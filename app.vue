@@ -146,7 +146,7 @@ Example:
                 <img
                   :src="dataUri"
                   :alt="'Rendered SVG'"
-                  class="max-w-full max-h-96 shadow-lg rounded-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300"
+                  class="max-w-full max-h-96"
                   @error="handleImageError"
                 />
               </div>

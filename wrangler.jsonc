@@ -8,10 +8,10 @@
   "main": "./.output/server/index.mjs",
   "compatibility_date": "2025-06-14",
   "compatibility_flags": ["nodejs_compat"],
-  // "assets": {
-  //   "binding": "ASSETS",
-  //   "directory": "./.output/public/"
-  // },
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./.output/public/"
+  },
   "observability": {
     "enabled": true
   }

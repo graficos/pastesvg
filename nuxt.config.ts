@@ -1,8 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2025-06-14',
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss'],
   app: {
     head: {
       title: 'PasteSVG - SVG to Image Converter',
@@ -21,4 +20,5 @@ export default defineNuxtConfig({
       inline: ['vue', '@vue/server-renderer', 'devalue', 'unhead'],
     },
   },
+  modules: ['@nuxtjs/tailwindcss'],
 });
