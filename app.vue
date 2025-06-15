@@ -322,7 +322,10 @@ useHead({
       content:
         'Convert SVG code to displayable images with real-time preview. Simply paste your SVG code and watch it render instantly.',
     },
-    { name: 'keywords', content: 'SVG, converter, image, data URI, web tools' },
+    {
+      name: 'keywords',
+      content: 'SVG, converter, image, data URI, web tools, micro-app',
+    },
   ],
 });
 
